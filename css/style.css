@@ -27,6 +27,15 @@ html {
 
 .main-header {
     background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-section {
+    margin-top: 50px;
 }
 
 .container.hdr {
@@ -34,7 +43,6 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    margin: 0 auto;
 }
 
 .hdr-link {
