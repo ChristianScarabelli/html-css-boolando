@@ -105,6 +105,10 @@ html {
     top: 5px;
 }
 
+.hearts:hover {
+    color: red;
+}
+
 .sales-badge.eco {
     background-color: green;
     position: absolute;
