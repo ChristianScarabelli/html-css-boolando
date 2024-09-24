@@ -26,7 +26,7 @@ html {
 /* LAYOUT  */
 
 .container {
-    max-width: 1024;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 0;
 }
@@ -34,8 +34,22 @@ html {
 .row {
     display: flex;
     flex-wrap: wrap;
+    min-height: 700px;
+    padding: 30px 0px;
 }
 
 .col-33 {
     width: calc(100% / 3);
+    padding: 15px;
+}
+
+.card-item {
+    width: 100%;
+}
+
+/* DEBUG  */
+
+.debug.main-section * {
+    border: 1px solid black;
+    min-height: 200px;
 }
