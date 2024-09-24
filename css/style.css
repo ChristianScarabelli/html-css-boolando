@@ -113,9 +113,6 @@ html {
     top: 5px;
 }
 
-.hearts:hover {
-    color: red;
-}
 
 .sales-badge.eco {
     background-color: green;
@@ -145,6 +142,37 @@ html {
 .lw-item > span {
     display: block;
 }
+
+/* HOOVER  */
+
+.hearts:hover {
+    color: red;
+}
+
+.hover-item1:hover {
+    content: url('../img/1b.webp');
+}
+
+.hover-item2:hover {
+    content: url('../img/2b.webp');
+}
+
+.hover-item3:hover {
+    content: url('../img/3b.webp');
+}
+
+.hover-item4:hover {
+    content: url('../img/4b.webp');
+}
+
+.hover-item5:hover {
+    content: url('../img/5b.webp');
+}
+
+.hover-item6:hover {
+    content: url('../img/6b.webp');
+}
+
 
 /* FOOTER  */
 
