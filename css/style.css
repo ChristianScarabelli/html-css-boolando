@@ -47,6 +47,35 @@ html {
     width: 100%;
 }
 
+.sales-badge {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+.hearts {
+    padding: 5px 10px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.sales-badge.eco {
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    left: 51px;
+}
+
+.up-item {
+    position: relative;
+}
+
 /* DEBUG  */
 
 .debug.main-section * {
