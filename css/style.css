@@ -23,6 +23,43 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+/* HEADER  */
+
+.main-header {
+    background-color: orange;
+}
+
+.container.hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+.hdr-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.icons {
+    color: white;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.hdr-logo {
+    height: 30px;
+    display: block;
+}
+
 /* LAYOUT  */
 
 .container {
@@ -94,6 +131,10 @@ html {
 .lw-item > span {
     display: block;
 }
+
+/* FOOTER  */
+
+
 
 /* DEBUG  */
 
