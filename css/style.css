@@ -76,6 +76,24 @@ html {
     position: relative;
 }
 
+.item-brand {
+    font-size: 12px;
+}
+
+.item-discount {
+    color: red;
+    font-size: 12px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: black;
+}
+
+.lw-item > span {
+    display: block;
+}
+
 /* DEBUG  */
 
 .debug.main-section * {
