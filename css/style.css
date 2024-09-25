@@ -42,7 +42,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0px;
+    padding: 15px 15px;
 }
 
 .hdr-link {
@@ -73,6 +73,13 @@ html {
 
 /* LAYOUT  */
 
+.item-img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1.4;
+    object-position: center;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -89,6 +96,7 @@ html {
     width: calc(100% / 3);
     padding: 15px 0px;
 }
+
 
 .card-item {
     width: 100%;
@@ -111,8 +119,12 @@ html {
     position: absolute;
     right: 0px;
     top: 5px;
+    cursor: pointer;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .sales-badge.eco {
     background-color: green;
@@ -186,6 +198,7 @@ html {
     align-items: center;
     color: white;
     font-size: 12px;
+    padding: 0px 15px;
 }
 
 .ftr-link {
@@ -219,3 +232,7 @@ html {
     border: 1px solid black;
     min-height: 200px;
 }
+
+
+
+/* I BADGE DEGLI SCONTI DOVREBBRO ESSERE UN UNICO DIV CON FLEX E PADDING */
